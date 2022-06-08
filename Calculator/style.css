@@ -28,12 +28,14 @@
     background-color: aliceblue;
     font-size: 25px;
     border-radius: 10px;
-    transition: all 0.2s ease;
+    transition: all 0.1s ease;
+    cursor: pointer;
 }
 #calculator button:hover { 
     background: linear-gradient(to right,#434343 5%, #2e2e2e);
     color: rgb(132, 191, 202);
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
+    font-size: 32px;
 }
 #calculator .equal {
     width: 220px;
